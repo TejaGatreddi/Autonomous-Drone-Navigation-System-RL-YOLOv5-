@@ -1,0 +1,12 @@
+numpy>=1.23
+pandas>=2.0
+torch>=2.0
+stable-baselines3>=2.1.0
+gym>=0.26
+opencv-python>=4.8
+ultralytics>=8.0.0
+pyyaml
+scipy
+matplotlib
+rospy; sys_platform != "win32"
+pytest

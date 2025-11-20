@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+*.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ROS
+devel/
+build/
+log/
+*.bag
+
+# catkin
+catkin_ws/devel/
+catkin_ws/build/
+catkin_ws/logs/
+catkin_ws/install/
+
+# AirSim / Gazebo
+*.airsim
+AirSimSettings.json
+Gazebo/models/*
+Gazebo/worlds/*.tmp
+
+# ML models & data
+models/
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.h5
+tb/
+runs/
+checkpoints/
+replay_buffer/
+data/
+!data/README*
+!data/*.md
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
